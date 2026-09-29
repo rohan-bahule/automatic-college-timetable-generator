@@ -1,0 +1,31 @@
+/* Timetable Page Wrapper Styling */
+.timetable-page {
+  padding: 40px 16px 64px;
+}
+
+.timetable-page-header {
+  margin-bottom: 28px;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  margin: 0 0 8px;
+  letter-spacing: -0.02em;
+}
+
+.page-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  margin: 0;
+  max-width: 720px;
+}
+
+.viewer-card-wrapper {
+  background-color: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-subtle);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
